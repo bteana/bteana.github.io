@@ -41,11 +41,15 @@ Pensamiento analítico · Resolución de problemas · Interpretación de resulta
 
 ## Explorador interactivo de anuncios de vehículos usados
 
+![Vista general de la aplicación](assets/p1_1.png)
+
+Aplicación interactiva para explorar patrones de precios y características de vehículos usados sin necesidad de conocimientos técnicos.
+
 **Problema**  
 El mercado de autos usados contiene gran cantidad de anuncios con información dispersa, lo que dificulta identificar patrones de precio y características relevantes sin análisis manual.
 
 **Objetivo**  
-Construir una herramienta interactiva para explorar relaciones entre variables del vehículo sin conocimientos técnicos.
+Construir una herramienta visual que permita analizar y comprender los datos de forma intuitiva mediante filtros y visualizaciones dinámicas.
 
 **¿Qué hice?**
 - Limpieza y preparación de datos con Python y pandas
@@ -53,11 +57,18 @@ Construir una herramienta interactiva para explorar relaciones entre variables d
 - Desarrollo de aplicación interactiva con Streamlit
 - Visualizaciones dinámicas con Plotly
 
-**Resultado**
-Aplicación que permite analizar precios, kilometraje y categorías de autos de forma visual e inmediata.
+**Ejemplos de análisis**
 
-**Impacto**
-Facilita la exploración de datos para usuarios no técnicos y reduce el tiempo necesario para detectar patrones del mercado.
+El kilometraje presenta una distribución sesgada hacia valores bajos, concentrando la mayor cantidad de vehículos por debajo de 200.000 km.
+![Distribución km](assets/p1_2.png)
+La transmisión automática domina la mayoría de marcas, mientras la manual aparece en segmentos específicos del mercado.
+![Barras transmisión](assets/p1_3.png)
+
+**Resultado**
+Herramienta que permite explorar datos, detectar patrones y comparar características de vehículos de manera visual e inmediata.
+
+**Aprendizaje**
+Transformar un dataset crudo en una herramienta usable para usuarios no técnicos, priorizando claridad y exploración autónoma.
 
 **Herramientas**
 Python · Pandas · Streamlit · Plotly
