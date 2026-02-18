@@ -1,13 +1,15 @@
-# Administradora y Economista en transición a Data Analytics
+# Analista Administrativa en transición a Data Analytics
 Analizo información para explicar comportamientos y apoyar decisiones de negocio.
 
 ---
 
-## Acerca de mí
+## Sobre mí
 
-Como administradora de negocios y economista, siempre me ha interesado entender por qué ocurren las cosas dentro de un proceso y cómo pueden mejorarse. Por eso inicié mi formación en análisis de datos: para pasar de la intuición a la evidencia.
+Soy profesional en Administración de Negocios y Economía con experiencia en procesos administrativos y de recursos humanos, especialmente en nómina y control de información.
 
-Actualmente desarrollo proyectos donde analizo datos de usuarios y operaciones para encontrar patrones, explicar comportamientos y proponer mejoras. Me interesa especialmente traducir resultados técnicos en conclusiones comprensibles para quienes toman decisiones.
+Actualmente me encuentro en formación en análisis de datos, aplicando SQL, Python, Excel y Power BI para limpiar datos, analizarlos y convertirlos en reportes claros orientados a negocio.
+
+Me interesa desarrollarme en analítica operativa y People Analytics: comprender qué ocurre en los procesos y cómo mejorarlos a partir de información.
 
 ---
 
@@ -37,22 +39,22 @@ Pensamiento analítico · Resolución de problemas · Interpretación de resulta
 
 ---
 
-## Análisis interactivo de anuncios de vehículos usados
+## Explorador interactivo de anuncios de vehículos usados
 
 **Problema**  
 El mercado de autos usados contiene gran cantidad de anuncios con información dispersa, lo que dificulta identificar patrones de precio y características relevantes sin análisis manual.
 
 **Objetivo**  
-Desarrollar una herramienta interactiva para explorar relaciones entre variables del vehículo sin necesidad de conocimientos técnicos.
+Construir una herramienta interactiva para explorar relaciones entre variables del vehículo sin conocimientos técnicos.
 
-**Metodología**
+**¿Qué hice?**
 - Limpieza y preparación de datos con Python y pandas
 - Análisis exploratorio (EDA)
 - Desarrollo de aplicación interactiva con Streamlit
 - Visualizaciones dinámicas con Plotly
 
-**Resultados**
-Permite analizar distribución de precios, relación entre kilometraje y valor del vehículo y comparar categorías de autos de forma visual e inmediata.
+**Resultado**
+Aplicación que permite analizar precios, kilometraje y categorías de autos de forma visual e inmediata.
 
 **Impacto**
 Facilita la exploración de datos para usuarios no técnicos y reduce el tiempo necesario para detectar patrones del mercado.
@@ -60,11 +62,11 @@ Facilita la exploración de datos para usuarios no técnicos y reduce el tiempo 
 **Herramientas**
 Python · Pandas · Streamlit · Plotly
 
-**Demo**
-https://proyecto-sprint-7-mdar.onrender.com
 
-**Repositorio**
-https://github.com/bteana/Proyecto_sprint_7
+[🔎 Ver aplicación del proyecto](https://proyecto-sprint-7-mdar.onrender.com)
+
+[💻 Repositorio del proyecto](https://github.com/bteana/Proyecto_sprint_7.git)
+
 
 ---
 
