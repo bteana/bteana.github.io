@@ -81,6 +81,53 @@ Python · Pandas · Streamlit · Plotly
 
 ---
 
+## Impacto del clima en la duración de viajes en taxi (Chicago)
+
+<img src="images/duration_distribution.png" alt="Distribución duración viajes"/>
+
+Análisis de datos para evaluar cómo las condiciones climáticas afectan la duración de los viajes hacia el aeropuerto O'Hare.
+
+**Problema**
+
+Las empresas de transporte necesitan estimar tiempos de llegada con precisión. Sin embargo, factores externos como la lluvia pueden alterar significativamente la duración de los viajes, afectando la experiencia del usuario y la logística operativa.
+
+**Objetivo**
+
+Determinar si los sábados lluviosos cambian estadísticamente la duración promedio de los viajes desde el Loop hasta el aeropuerto O'Hare.
+
+**¿Qué hice?**
+
+* Web scraping de registros climáticos
+* Consultas SQL para integración de datos de viajes
+* Análisis exploratorio en Python (Pandas, Matplotlib, Seaborn)
+* Prueba estadística (t-test independiente + prueba de Levene)
+* Interpretación orientada a negocio
+
+**Resultado**
+
+Se encontró evidencia estadística significativa (p-value < 0.05) que indica que la lluvia aumenta la duración promedio de los viajes.
+
+**Valor para negocio**
+
+Permite:
+
+* Ajustar ETAs en tiempo real
+* Mejorar asignación de conductores
+* Implementar precios dinámicos según clima
+
+**Aprendizaje**
+
+Integración de múltiples fuentes de datos y validación de hipótesis para transformar un problema operativo en una decisión basada en evidencia.
+
+**Herramientas** 
+Python · SQL · Pandas · SciPy · Matplotlib · Jupyter · Web Scraping
+
+
+[💻 Repositorio del proyecto](https://github.com/bteana/weather_impact.git)
+
+
+---
+
 ## Contacto
 
 [LinkedIn](https://www.linkedin.com/in/anaebustamante/)  
