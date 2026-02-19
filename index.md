@@ -15,16 +15,16 @@ Me interesa desarrollarme en analítica operativa y People Analytics: comprender
 
 ## Habilidades técnicas
 
-**Lenguajes y consulta de datos**  
+### Lenguajes y consulta de datos
 Python (pandas, limpieza y análisis exploratorio) · SQL (consultas, joins, agregaciones)
 
-**Análisis**  
+### Análisis
 Limpieza de datos · EDA · métricas de negocio · segmentación · validación de hipótesis
 
-**Visualización**  
+### Visualización
 Power BI · Matplotlib · Seaborn · Storytelling con datos
 
-**Herramientas**  
+### Herramientas
 Excel · Git/GitHub · Jupyter Notebook
 
 ---
@@ -45,32 +45,32 @@ Pensamiento analítico · Resolución de problemas · Interpretación de resulta
 
 Aplicación interactiva para explorar patrones de precios y características de vehículos usados sin necesidad de conocimientos técnicos.
 
-**Problema**  
+### Problema  
 El mercado de autos usados contiene gran cantidad de anuncios con información dispersa, lo que dificulta identificar patrones de precio y características relevantes sin análisis manual.
 
-**Objetivo**  
+### Objetivo
 Construir una herramienta visual que permita analizar y comprender los datos de forma intuitiva mediante filtros y visualizaciones dinámicas.
 
-**¿Qué hice?**
+### ¿Qué hice?
 - Limpieza y preparación de datos con Python y pandas
 - Análisis exploratorio (EDA)
 - Desarrollo de aplicación interactiva con Streamlit
 - Visualizaciones dinámicas con Plotly
 
-**Ejemplos de análisis**
+### Ejemplos de análisis
 
 El kilometraje presenta una distribución sesgada hacia valores bajos, concentrando la mayor cantidad de vehículos por debajo de 200.000 km.
 ![Distribución km](assets/p1_2.png)
 La transmisión automática domina la mayoría de marcas, mientras la manual aparece en segmentos específicos del mercado.
 ![Barras transmisión](assets/p1_3.png)
 
-**Resultado**
+### Resultado
 Herramienta que permite explorar datos, detectar patrones y comparar características de vehículos de manera visual e inmediata.
 
-**Aprendizaje**
+### Aprendizaje
 Transformar un dataset crudo en una herramienta usable para usuarios no técnicos, priorizando claridad y exploración autónoma.
 
-**Herramientas**
+### Herramientas
 Python · Pandas · Streamlit · Plotly
 
 
@@ -87,39 +87,33 @@ Python · Pandas · Streamlit · Plotly
 
 Análisis de datos para evaluar cómo las condiciones climáticas afectan la duración de los viajes hacia el aeropuerto O'Hare.
 
-**Problema**
-
+### Problema
 Las empresas de transporte necesitan estimar tiempos de llegada con precisión. Sin embargo, factores externos como la lluvia pueden alterar significativamente la duración de los viajes, afectando la experiencia del usuario y la logística operativa.
 
-**Objetivo**
-
+### Objetivo
 Determinar si los sábados lluviosos cambian estadísticamente la duración promedio de los viajes desde el Loop hasta el aeropuerto O'Hare.
 
-**¿Qué hice?**
-
+### ¿Qué hice?
 * Web scraping de registros climáticos
 * Consultas SQL para integración de datos de viajes
 * Análisis exploratorio en Python (Pandas, Matplotlib, Seaborn)
 * Prueba estadística (t-test independiente + prueba de Levene)
 * Interpretación orientada a negocio
 
-**Resultado**
-
+### Resultado
 Se encontró evidencia estadística significativa (p-value < 0.05) que indica que la lluvia aumenta la duración promedio de los viajes.
 
-**Valor para negocio**
-
+### Valor para negocio
 Permite:
 
 * Ajustar ETAs en tiempo real
 * Mejorar asignación de conductores
 * Implementar precios dinámicos según clima
 
-**Aprendizaje**
-
+### Aprendizaje
 Integración de múltiples fuentes de datos y validación de hipótesis para transformar un problema operativo en una decisión basada en evidencia.
 
-**Herramientas** 
+### Herramientas
 Python · SQL · Pandas · SciPy · Matplotlib · Jupyter · Web Scraping
 
 
