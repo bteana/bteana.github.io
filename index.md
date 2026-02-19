@@ -83,7 +83,7 @@ Python · Pandas · Streamlit · Plotly
 
 ## Impacto del clima en la duración de viajes en taxi (Chicago)
 
-<img src="images/duration_distribution.png" alt="Distribución duración viajes"/>
+![Distribución de duración de viaje](assets/duration_distribution.png)
 
 Análisis de datos para evaluar cómo las condiciones climáticas afectan la duración de los viajes hacia el aeropuerto O'Hare.
 
